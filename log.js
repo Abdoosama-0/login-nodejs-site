@@ -6,7 +6,7 @@ const Data = require('./models/data');
 const bodyParser = require('body-parser');
 mongoose.connect("mongodb+srv://abdoosama00:Abdo00000@test.1lmps.mongodb.net/?retryWrites=true&w=majority&appName=test")
 .then(()=>{
-    console.log("done");
+    console.log("done1");
 }).catch((error)=>{
 console.log(error);
 })
